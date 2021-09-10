@@ -63,10 +63,10 @@
 //});
 
 $(document).ready(function () {
-    //    $(function () {
-    //        $("#desktop-angela, #desktop-anne, #desktop-chloe, #desktop-devon, #desktop-gray, #desktop-hani, #desktop-indiana, #desktop-kenny, #desktop-mendy").draggable();
-    //                                $("#desktop-angela, #desktop-anne, #desktop-chloe, #desktop-devon, #desktop-gray, #desktop-hani, #desktop-indiana, #desktop-kenny, #desktop-mendy").resizable();
-    //    });
+    $(function () {
+        $("#welcome-1, welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy").draggable();
+        //                                    $("#desktop-angela, #desktop-anne, #desktop-chloe, #desktop-devon, #desktop-gray, #desktop-hani, #desktop-indiana, #desktop-kenny, #desktop-mendy").resizable();
+    });
     $('.cyber-title').hover(function () {
         $('#acknowledgement').fadeIn();
     }, function () {

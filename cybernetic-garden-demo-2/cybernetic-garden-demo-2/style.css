@@ -123,7 +123,7 @@ ul li a img {
 }
 
 ul li a:hover img {
-    transform: scale(2.5);
+    transform: scale(2.8);
 }
 
 #desktop-angela {
@@ -372,4 +372,8 @@ marquee {
     width: auto;
     height: 60px;
     z-index: 1;
+}
+
+#welcome-1, welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy {
+    cursor: move;
 }
