@@ -13,7 +13,12 @@ a:hover {
 /*BODY GRADIENT CREDIT from Q ^_^: https://glitch.com/edit/#!/moving-gradient-bg-demo*/
 body {
     font-family: helvetica, arial, sans-serif;
-    margin: 2em;
+    /*    margin: 2em;*/
+    width: 50%;
+    margin-top: 5vh;
+    overflow: scroll;
+    text-align: left;
+    display: grid;
     background: #BBF0A8;
 
     -webkit-font-smoothing: antialiased;
@@ -97,18 +102,54 @@ footer {
     height: auto
 }
 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 h1,
 h2,
 h3 {
-    margin: 0px;
+    /*    margin: 0px;*/
+    margin-top: 10vh;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
+
+.glow {
+    color: #fff;
+    /*  text-align: center;*/
+    text-shadow: -1px 0 #e60073, 0 1px #e60073, 1px 0 #e60073, 0 -1px #e60073;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+/*
 h1 span {
     margin-bottom: 1vw;
     background-color: violet;
     padding: 3px;
 
 }
+*/
 
 h2,
 h3 {

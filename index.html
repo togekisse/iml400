@@ -4,18 +4,44 @@
 <head>
     <title>angela's homepage</title>
     <meta charset="utf-8" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js"></script>
+
     <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/assets/favicon.gif" />
 </head>
 
 <body>
-    <div>
-        <h1>angela rong</h1>
-        <p> hi! this is my website for my IML400 class. a little bit about me. </p>
+   
+       <!--   Sticky Note interactivity-->
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(function() {
+                $(".sticky-draggable").draggable();
+            });
+            $(".sticky-draggable").draggable({
+                containment: "#containment-wrapper",
+                scroll: false
+            });
+        })
+
+    </script>
+
+    <div class="sticky-draggable" style="height:150px; width:300px;">
+        <div class="sticky-note">
+            <p> hi, i'm <b>Angela!</b><br>
+
+                this is my website for my <i>IML400</i> class. </p>
+            <p>she's currently under construction --<br/>
+            check back later!</p>
+            <img src="https://64.media.tumblr.com/tumblr_mc4j0fuCyb1qdlkyg.gif" alt="a little scribbly cat gif">
+        </div>
     </div>
 
-
     <div>
-        <h1>presentation</h1>
+        <h1 class="glow">presentation</h1>
         <ul>
             <li> <a href="https://docs.google.com/presentation/d/1ZC1WogmtyPKY6Axnd7qpbMkt1tZsPmh98ZoWKIxvVfg/edit?usp=sharing" target="blank">Indigenous Technology</a></li>
         </ul>
