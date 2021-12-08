@@ -8,13 +8,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.11/paper-full.min.js"></script>
+    
+    <script type="text/paperscript" src="script.js" canvas="cursor-canvas">
+    </script>
 
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/favicon.gif" />
 </head>
 
 <body>
-   
+       <canvas id="cursor-canvas" resize></canvas>
        <!--   Sticky Note interactivity-->
     <script type="text/javascript">
         $(document).ready(function() {
