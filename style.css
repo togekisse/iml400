@@ -114,6 +114,8 @@ h1,
 h2,
 h3 {
     /*    margin: 0px;*/
+    color: white;
+    text-shadow: -1px 0 #e60073, 0 1px #e60073, 1px 0 #e60073, 0 -1px #e60073;
     margin-top: 10vh;
     display: block;
     margin-block-start: 0.67em;
@@ -126,7 +128,6 @@ h3 {
 .glow {
     color: #fff;
     /*  text-align: center;*/
-    text-shadow: -1px 0 #e60073, 0 1px #e60073, 1px 0 #e60073, 0 -1px #e60073;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
