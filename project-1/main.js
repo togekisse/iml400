@@ -1,70 +1,6 @@
-//$(document).ready(function () {
-//  $(function () {
-//    $(
-//      "#computer-plants, #plant1, #plant2, #plant3, #plant4, #p2,.pop-up"
-//    ).draggable();
-//  });
-//
-//  $("#p1").click(function () {
-//    $(".pop-up").toggle();
-//  });
-//
-//  $("#computer2").click(function () {
-//    //        $("#plant4").hide();
-//    $("#plant4").toggle();
-//  });
-//
-//  $("#computer1").hover(
-//    function () {
-//      $("#p2").fadeIn();
-//    },
-//    function () {
-//      $("#p2").fadeOut();
-//    }
-//  );
-//
-//  $("#computer2").hover(
-//    function () {
-//      $("#p3").fadeIn();
-//    },
-//    function () {
-//      $("#p3").fadeOut();
-//    }
-//  );
-//
-//  $("#computer3").hover(
-//    function () {
-//      $("#p4").fadeIn();
-//    },
-//    function () {
-//      $("#p4").fadeOut();
-//    }
-//  );
-//
-//  var vineImg = [
-//    "url(asset/vines-1.jpg)",
-//    "url(asset/vines-2.jpg)",
-//    "url(asset/vines-3.jpg)",
-////    "url(asset/bg-3.jpg)",
-////    "url(asset/bg-5.jpg)",
-//  ];
-//
-//  var counter = 0;
-//    
-//
-//  $("button").click(function () {
-//    if (counter == bgImg.length) {
-//      counter = 0;
-//    }
-//    var currentVines = vineImg[counter];
-//    $("body").css("background-image", currentBg);
-//    counter++;
-//  });
-//});
-
 $(document).ready(function () {
     $(function () {
-        $("#welcome-1, welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy").draggable();
+        $("#welcome-1, #welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy").draggable();
         //                                    $("#desktop-angela, #desktop-anne, #desktop-chloe, #desktop-devon, #desktop-gray, #desktop-hani, #desktop-indiana, #desktop-kenny, #desktop-mendy").resizable();
     });
     $('.cyber-title').hover(function () {
@@ -118,13 +54,10 @@ $(document).ready(function () {
     }, function () {
         $('#name-mendy').fadeOut();
     });
-    //            $("#desktop-angela, #desktop-anne, #desktop-chloe, #desktop-devon, #desktop-gray, #desktop-hani, #desktop-indiana, #desktop-kenny, #desktop-mendy").hover(function () {
-    //                    $("this").toggleClass(".grow");
-    //                }
 
     var counter = 0;
 
-    $("button").click(function () {
+    $("#watering-can").click(function () {
 
         counter++;
         if (counter == 6) {

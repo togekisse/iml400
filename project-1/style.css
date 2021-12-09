@@ -32,11 +32,16 @@ body {
     color: greenyellow;
 }
 
-#button-1 {
-    left: 3%;
+#watering-can {
+    left: 2%;
     bottom: 5%;
     position: fixed;
     z-index: 11;
+    width: 150px;
+}
+
+#watering-can:hover {
+    cursor: pointer;
 }
 
 /*
@@ -374,6 +379,6 @@ marquee {
     z-index: 1;
 }
 
-#welcome-1, welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy {
+#welcome-1, #welcome-2, #welcome-3, #welcome-4, #welcome-5, #welcome-bunny, #welcome-home, #puppy {
     cursor: move;
 }
