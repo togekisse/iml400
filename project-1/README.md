@@ -1,6 +1,6 @@
 # Cybernetic Garden
 
-![demo](https://github.com/togekisse/iml400/project-1/asset/project-gif.gif)
+![demo](https://github.com/togekisse/iml400/blob/master/project-1/asset/project-gif.gif)
 
 [Cybernetic Garden](http://togekisse.github.io/iml400/project-1) is an interactive web page inspired by the poem All Watched Over by Machines of Loving Grace by by Richard Brautigan.
 
